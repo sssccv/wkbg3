@@ -1,12 +1,16 @@
-module.exports=function(eleventyconfig){
-eleventyconfig.addPassthroughCopy("code/css");
-eleventyconfig.addPassthroughCopy("code/js");
-eleventyconfig.addPassthroughCopy("code/img");
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
-    return {
-        dir: {
-            input:"code",
-            output: "docs",
-        },
-    };
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("code/css");
+  eleventyConfig.addPassthroughCopy("code/js");
+  eleventyConfig.addPassthroughCopy("code/img");
+
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+
+  return {
+    dir: {
+      input: "code",
+      output: "docs",
+    },
+  };
 };
