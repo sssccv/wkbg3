@@ -1,5 +1,5 @@
 {
-  "name": "wkbg3",
+  "name": "wikipediabg3",
   "version": "1.0.0",
   "description": "oa uwu",
   "main": ".eleventy.js",
@@ -8,7 +8,7 @@
     "start": "npx @11ty/eleventy --serve --port=7777",
     "clean":"rm -rf docs",
     "deploy":"npx @11ty/eleventy --pathprefix=/",
-    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/wkbg3/"
+    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/wikipediabg3/"
   },
   "keywords": [
   "DnD",
