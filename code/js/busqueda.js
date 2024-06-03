@@ -3,27 +3,27 @@ document.addEventListener('DOMContentLoaded', function () {
     const suggestions = document.getElementById('suggestions');
   
     const items = [
-      { name: 'Dracónido', link: 'http://localhost:7777/Dracónido/' },
-      { name: 'Elfos', link: 'http://localhost:7777/Elfos/' },
-      { name: 'Enano', link: 'http://localhost:7777/Enano/'},
-      { name: 'Gnomo', link: 'http://localhost:7777/Gnomo/' },
-      { name: 'Humano', link: 'http://localhost:7777/Humano/' },
-      { name: 'Mediano', link: 'http://localhost:7777/Mediano/' },
-      { name: 'Semielfo', link: 'http://localhost:7777/Semielfo/' },
-      { name: 'Semiorco', link: 'http://localhost:7777/Semiorco/' },
-      { name: 'Tiflin', link: 'http://localhost:7777/Tiflin/' },
-      { name: 'Bárbaro', link: 'http://localhost:7777/Bárbaro/' },
-      { name: 'Bárdo', link: 'http://localhost:7777/Bárdo/' },
-      { name: 'Brujo', link: 'http://localhost:7777/Brujo/' },
-      { name: 'Clérigo', link: 'http://localhost:7777/Clérigo/' },
-      { name: 'Druida', link: 'http://localhost:7777/Druida/' },
-      { name: 'Explorador', link: 'http://localhost:7777/Explorador/' },
-      { name: 'Guerrero', link: 'http://localhost:7777/Guerrero/' },
-      { name: 'Hechicero', link: 'http://localhost:7777/Hechicero/' },
-      { name: 'Mago', link: 'http://localhost:7777/Mago/' },
-      { name: 'Monje', link: 'http://localhost:7777/Monje/' },
-      { name: 'Paladín', link: 'http://localhost:7777/Paladín/' },
-      { name: 'Pícaro', link: 'http://localhost:7777/Pícaro/' }
+      { name: 'Dracónido', link: 'https://sssccv.github.io/wkbg3/Dracónido/' },
+      { name: 'Elfos', link: 'https://sssccv.github.io/wkbg3/Elfos/' },
+      { name: 'Enano', link: 'https://sssccv.github.io/wkbg3/Enano//'},
+      { name: 'Gnomo', link: 'https://sssccv.github.io/wkbg3/Gnomo/' },
+      { name: 'Humano', link: 'https://sssccv.github.io/wkbg3/Humano/' },
+      { name: 'Mediano', link: 'https://sssccv.github.io/wkbg3/Mediano/' },
+      { name: 'Semielfo', link: 'https://sssccv.github.io/wkbg3/Semielfo/' },
+      { name: 'Semiorco', link: 'https://sssccv.github.io/wkbg3/Semiorco/' },
+      { name: 'Tiflin', link: 'https://sssccv.github.io/wkbg3/Tiflin/' },
+      { name: 'Bárbaro', link: 'https://sssccv.github.io/wkbg3/Bárbaro/' },
+      { name: 'Bárdo', link: 'https://sssccv.github.io/wkbg3/Bárdo/' },
+      { name: 'Brujo', link: 'https://sssccv.github.io/wkbg3/Brujo/' },
+      { name: 'Clérigo', link: 'https://sssccv.github.io/wkbg3/Clérigo/' },
+      { name: 'Druida', link: 'https://sssccv.github.io/wkbg3/Druida/' },
+      { name: 'Explorador', link: 'https://sssccv.github.io/wkbg3/Explorador/' },
+      { name: 'Guerrero', link: 'https://sssccv.github.io/wkbg3/Guerrero/' },
+      { name: 'Hechicero', link: 'https://sssccv.github.io/wkbg3/Hechicero/' },
+      { name: 'Mago', link: 'https://sssccv.github.io/wkbg3/Mago/' },
+      { name: 'Monje', link: 'https://sssccv.github.io/wkbg3/Monje' },
+      { name: 'Paladín', link: 'https://sssccv.github.io/wkbg3/Paladín/' },
+      { name: 'Pícaro', link: 'https://sssccv.github.io/wkbg3/Pícaro/' }
     ];
   
     searchInput.addEventListener('input', function () {
